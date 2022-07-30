@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link type="image/x-icon" href="favicon.ico">
+    <link href="flightsurety.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main class="container">     
+        <div id="display-wrapper" class="top-20">
+            <div class="row">
+                <div class="col-md-12"><h1> Buy flight insurance </h1></div>                
+            </div>            
+            <div class="row">
+                <div class="col-md-2"><label class="form" for="airlines">Select an airline:</label></div>
+                <div class="col-*-#"> 
+                    <select class="form" name="airlines" id="airline">
+                    </select>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-md-2"><label class="form" for="airlines">Name of airline:</label></div>
+                <div class="col-*-#"> <input type="text" id="name">                 
+                </div>
+                <div class="col-*-#"><btn class="btn btn-primary" id="btn-register-airline">Register airline</btn> </div>
+                <div class="col-*-#"><btn class="btn btn-primary" id="btn-fund-airline">Fund airline</btn> </div>
+             </div>   
+                <div class="row">
+                    <div class="col-md-2"><label class="form">Select a flight:</label> </div>
+                    <div class="col-*-#"><select class="form" aria-label="Select Flight" id="flight">
+                        <option value="Flight1">Flight1</option>
+                        <option value="Flight2">Flight2</option>
+                        <option value="Flight3">Flight3</option>
+                        <option value="Flight4">Flight4</option>
+                        <option value="Flight5">Flight5</option>
+                    </select>                       
+                 </div>  
+                 <div class="col-*-#"> <btn class="btn btn-primary" id="btn-register-flight">Register flight</btn></div>               
+                </div> 
+                <div class="row">
+                    <div class="col-md-2"> <label class="form">Select a passenger:</label> </div>
+                    <div class="col-*-#">  <select class="form" name="passengers" id="passenger">
+                    </select>                 
+                    </div>
+                      
+                    </div>        
+                    <div class="row">
+                        <div class="col-md-2">  <label class="form">Insurance Amount in wei (Up to 1 Ether):</label> 
+                        </label> </div>
+                        <div class="col-*-#">  <input type="text" id="amount">
+                        </div>
+                        <div class="col-*-#">  <btn class="btn btn-primary" id="btn-buy-insurance">Buy Insurance</btn>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-2"> <btn class="btn btn-primary" id="btn-submit-oracle">Check Flight Status</btn> </div>
+                    </div>                   
+        </div>
+    </main>
+</body>
+</html>
