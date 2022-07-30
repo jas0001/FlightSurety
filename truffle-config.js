@@ -20,7 +20,7 @@
 
  const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
-const mnemonic ="eagle spell name exact load army peace human useful critic evidence occur";
+const mnemonic ="art disease cry fossil correct unfair spare birth sudden van usage banana";
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
